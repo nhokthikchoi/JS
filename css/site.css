@@ -1,0 +1,33 @@
+body {
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a{
+    cursor: pointer;
+}
+
+.button {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #dd4b39;
+    padding: 7px 36px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    font-size: 11px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.button:hover {
+    cursor: default;
+    background-color: #d14836;
+}
+
+.button:active {
+    border: thick double #fff;
+
+}

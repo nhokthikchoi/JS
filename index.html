@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Practice</title>
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/slider.css">
+    </head>
+    <body>
+        <div class="dropdownlist-wrapper">
+            <a class="button">New</a>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+
+        <div class="slider">
+            <div class="slider-list">
+                <div id="one" class="slider-item pink active">
+                    One
+                </div>
+                <div id="two" class="slider-item green">
+                    <b>Two</b>
+                </div>
+                <div id="three" class="slider-item blue">
+                    <i>Three</i>
+                </div>
+            </div>
+            <div class="slider-point-container">
+                <a class="slider-point fa active" data-target="#one"></a>
+                <a class="slider-point fa" data-target="#two"></a>
+                <a class="slider-point fa" data-target="#three"></a>
+            </div>
+
+            <a id="btnPrev" class="btnNavigation previous"><i class="fa fa-caret-left"></i></a>
+            <a id="btnNext" class="btnNavigation next"><i class="fa fa-caret-right"></i></a>
+        </div>
+
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/dropdownlist.js"></script>
+        <script type="text/javascript" src="js/slider.js"></script>
+    </body>
+</html>
